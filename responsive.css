@@ -1,0 +1,99 @@
+@media screen and (max-width: 768px) {
+    .margin-section {
+        margin-top: 120px;
+    }
+
+    .section {
+        order: 1;
+    }
+
+    .detail-edu {
+        margin-top: 40px;
+    }
+
+    .contact-detail {
+        justify-content: center;
+    }
+
+    .short-film {
+        margin-top: 30px;
+    }
+
+    td {
+        padding: 10px 10px;
+    }
+
+    /* education */
+
+}
+
+@media screen and (max-width: 768px) {
+    .detail-edu {
+        justify-content: center;
+    }
+
+    .heading {
+        /* padding-top: 75px; */
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 68px;
+        color: var(--Secondary-color);
+        text-align: center;
+        margin-bottom: 66px;
+    }
+
+    iframe {
+        max-width: 350px;
+    }
+
+}
+
+@media(min-width:671px) and (max-width:1024px){
+
+}
+
+@media(min-width:370px) and (max-width:896px){
+    .navbar{
+        width: 100%;
+    }
+
+    .section-header{
+        flex-direction: column;
+    }
+
+    .photo-profile img{
+        width: 250px;
+    }
+
+    .text{
+        padding: 0 50px;
+        font-size: 20px;
+    }
+
+    .contact-detail{
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    .form{
+        width: 365px;
+    }
+    
+    .short-film{
+        margin-left: 15px;
+    }
+
+    .table-org{
+        font-size: 18px;
+    }
+
+    .detail-edu .name{
+        font-size: 22px;
+    }
+    .detail-edu .jurusan{
+        font-size: 20px;
+    }
+    .detail-edu .th{
+        font-size: 18px;
+    }
+}

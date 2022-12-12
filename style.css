@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+}
+
+:root{
+    --primarycolor:#ffffff;
+    --secondarycolor:black;
+    --formcolor:#ffffff;
+}
+
+.darkmode{
+    --primarycolor:#242121;
+    --secondarycolor:#ffffff;
+    --formcolor:#4e4e4e;
+}
+
+.konten-semua{
+    /* padding: 0 100px; */
+    font-family: 'Century Gothic';
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.dark{
+    position: absolute;
+    width: 130px;
+    height: 28px;
+    right: 20px;
+    top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+/* Header */
+.section-header {
+    /* padding-top: 10px; */
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87px;
+    margin-bottom: 54px;
+    /* position: fixed; */
+    width: 100%;
+    font-family: 'Century Gothic';
+    background-color: rgba(90, 90, 90, 0.096);
+}
+
+.navbar li a {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--secondarycolor);
+    font-weight: 600;
+}
+
+.photo-profile img{
+    width: 350px;
+}
+/* Header end */
+
+/* about */
+.about {
+    margin-top: 30px;
+}
+
+.about h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.about h1 .names{
+    margin-top: 200px;
+}
+
+.about h1 span{
+    color: blue;
+}
+.about p{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+}
+
+
+.aboutunder {
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 100px;
+    background-color: var(--formcolor);
+}
+
+.section-about h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.text {
+    padding: 50px 60px;
+    font-size: 30px;
+}
+/* about end */
+
+/* education */
+.education {
+    margin-bottom: 100px;
+}
+
+.section-education {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-education h1 {
+    font-size: 40px;
+}
+
+.detail-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 px;
+}
+
+.detail-edu h1{
+    text-transform: uppercase;
+}
+.name {
+    font-size: 30px;
+}
+
+.jurusan {
+    font-size: 25px;
+}
+
+.th {
+    font-size: 20px;
+}
+/* education end */
+
+/* organisasi */
+.Organisasi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.table-org{
+    font-size: 25px;
+}
+
+.section-org h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* organisasi end */
+
+/* contact */
+.contact {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-contact h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 556px;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    text-transform: capitalize;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-family: 'Century Gothic';
+    background-color: var(--formcolor);
+}
+
+#nama{
+    width: 100%;
+    height: 49px;
+    border-radius: 10px;
+    /* border: none; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    /* border: none; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.done{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.send{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.send a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(91, 174, 230);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.short-film h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* contact end */
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+/* footer */
